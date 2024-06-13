@@ -17,15 +17,16 @@
 .project{
     text-align: center;
     background-color: white;
-    border: solid black 2px;
+    border: solid black 4px;
     border-radius: 15px;
     text-decoration: none;
     color: inherit;
     transition: transform 0.3s, box-shadow 0.3s;
     aspect-ratio: 2.5/1;
     max-width: 500px;
-    padding:4px;
+    overflow: hidden;
 }
+
 
 
 .project:hover {
