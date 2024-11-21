@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
-    gap:20px;
+    gap: 20px;
     margin: 0 auto;
     max-width: 1300px;
 }
@@ -23,7 +22,6 @@
     border-radius: 15px;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.3s, box-shadow 0.3s;
     aspect-ratio: 2.5/1;
     min-width: 250px;
     overflow: hidden;
@@ -40,27 +38,7 @@
     height:auto;
 }
 
-.header-section {
-    color: black;      
-    text-align: center; 
-}
-
-.header-section .header-title {
-    font-size: 30px;
-    letter-spacing: 3px;
-}
-  
-.header-section p {
-    margin: 0;
-    font-size: 25px; 
-}
-
-.contact-links img {
-    width: 40px;
-    height: 40px;
-}
-
-
+/* Header Section */
 .header-section {
     text-align: center;
     padding-top: 50px;
@@ -85,24 +63,57 @@
     margin: 40px 0 20px;
 }
 
+/* Footer Section */
+.footer-section {
+    text-align: center;
+    color: black;
+    margin:20px 0 70px 0;
+}
+
+.footer-section .footer-title {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin:0;
+    padding-bottom:15px;
+}
+
 .contact-links {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    padding: 7px 25px;
+    border-radius: 15px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: inherit;
+}
+
+.link:hover {
+    transform: scale(1.05);
+}
+
+
+.icon-name{
+    font-size: 1.15rem;
 }
 
 .contact-links a img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s, opacity 0.3s;
+    width: 35px;
+    height: 35px;
 }
-
-.contact-links a img:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
-}
-
-
 
 
 @media (max-width: 661px) {
