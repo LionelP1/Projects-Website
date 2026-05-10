@@ -8,15 +8,16 @@
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     gap: 20px;
     margin: 0 auto;
     max-width: 1300px;
 }
 
-.project{
+.project {
     text-align: center;
     background-color: black;
     border: solid white 2px;
@@ -24,10 +25,9 @@
     text-decoration: none;
     color: inherit;
     aspect-ratio: 2.5/1;
-    min-width: 250px;
+    width: 400px;
     overflow: hidden;
 }
-
 
 .project:hover {
     transform: scale(1.02);
