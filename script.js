@@ -1,4 +1,5 @@
 const projects = [
+  { href: "https://ai-podcast-generator-9ai4.onrender.com/", img: "images/pdf-organizer.png", alt: "PDF Organizer"},
   { href: "https://ai-podcast-generator-9ai4.onrender.com/", img: "images/ai-podcast-generator.png", alt: "AI Podcast Generator" },
   { href: "https://ai-text-summarizer-w9xe.onrender.com", img: "images/ai-text-summarizer.png", alt: "AI Text Summarizer" },
   { href: "https://chat-app-xz4i.onrender.com", img: "images/chat-app.png", alt: "Chat App" },
